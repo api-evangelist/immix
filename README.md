@@ -64,5 +64,158 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-IMMIX is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by crane-venture-partners) and added to the network as a stub for full-pipeline profiling.
-- https://immix.xyz/
+IMMIX is an AI-native trading firm that makes markets in non-USD stablecoin FX, providing direct executable liquidity for payment firms, stablecoin issuers, venues and platforms. Leveraging deep‑learning models, IMMIX forecasts market states across thousands of instruments, pricing and trading them as principal. The platform offers a REST API and WebSocket market‑data streams, enabling clients to integrate stablecoin FX liquidity into their services with high throughput and low latency. IMMIX aims to decentralize stablecoin liquidity beyond the dollar, reducing conversion costs and improving market efficiency.
+
+**Areas:** Company · FinTech · Stablecoin · FX · AI
+
+## IMMIX on APIs.io
+
+Everything profiled for IMMIX is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/immix/](https://apis.io/providers/immix/)** — or go straight to one of the APIs or properties below.
+
+### APIs (17)
+
+- [IMMIX Account addresses API](https://apis.io/apis/immix/immix-account-addresses-api/) — Deposit and withdrawal addresses declared on an account and verified by a second user.
+- [IMMIX Account balances API](https://apis.io/apis/immix/immix-account-balances-api/) — What each account holds at its venue, as the venue last stated it: the latest reading per account and asset, published by the platform's account connectors…
+- [IMMIX Accounts API](https://apis.io/apis/immix/immix-accounts-api/) — Venue accounts discovered through a credential: classified into a portfolio, approved, frozen, retired.
+- [IMMIX Algos API](https://apis.io/apis/immix/immix-algos-api/) — The organisation's algo instances: created with a config document, started and stopped, re-configured while they run, halted all at once; the documents'…
+- [IMMIX Asset policies API](https://apis.io/apis/immix/immix-asset-policies-api/) — Per-asset limits: ticket size, approval threshold, reconciliation tolerance.
+- [IMMIX Assets API](https://apis.io/apis/immix/immix-assets-api/) — The assets API from IMMIX — 2 operation(s) for assets.
+- [IMMIX Chain policies API](https://apis.io/apis/immix/immix-chain-policies-api/) — Per-chain transfer limits.
+- [IMMIX Credentials API](https://apis.io/apis/immix/immix-credentials-api/) — Venue API keys: created as proposals, approved under maker-checker, rotated and revoked. The key material is taken once and never served.
+- [IMMIX Enquiry API](https://apis.io/apis/immix/immix-enquiry-api/) — The Enquiry API from IMMIX — 1 operation(s) for enquiry.
+- [IMMIX Executions API](https://apis.io/apis/immix/immix-executions-api/) — Fills, joined to their order by `orderId`.
+- [IMMIX Instruments API](https://apis.io/apis/immix/immix-instruments-api/) — The instruments API from IMMIX — 2 operation(s) for instruments.
+- [IMMIX Operations API](https://apis.io/apis/immix/immix-operations-api/) — The outcome of a write that answered `202`.
+- [IMMIX Orders API](https://apis.io/apis/immix/immix-orders-api/) — Submit, read and cancel orders.
+- [IMMIX Portfolios API](https://apis.io/apis/immix/immix-portfolios-api/) — How the organisation groups its accounts.
+- [IMMIX Trading policies API](https://apis.io/apis/immix/immix-trading-policies-api/) — Per-instrument and organisation-wide order limits, and the trading halt.
+- [IMMIX Users API](https://apis.io/apis/immix/immix-users-api/) — Members of the organisation, and your own row.
+- [IMMIX Venues API](https://apis.io/apis/immix/immix-venues-api/) — The venues API from IMMIX — 2 operation(s) for venues.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Immix Agentic Access](https://apis.io/agentic-access/immix/immix-agentic-access/)
+
+#### JSON Schema (8)
+
+The data models the API reads and writes.
+
+- [Accepted](https://apis.io/schemas/immix/immix-accepted/)
+- [CredentialRow](https://apis.io/schemas/immix/immix-credential-row/)
+- [Instrument](https://apis.io/schemas/immix/immix-data-instrument/)
+- [LeadSubmission](https://apis.io/schemas/immix/immix-lead-submission/)
+- [CancelOrdersResponse](https://apis.io/schemas/immix/immix-orders-cancel-orders-response/)
+- [GetOrdersResponse](https://apis.io/schemas/immix/immix-orders-get-orders-response/)
+- [SubmitOrdersResponse](https://apis.io/schemas/immix/immix-orders-submit-orders-response/)
+- [TradingPolicyRow](https://apis.io/schemas/immix/immix-trading-policy-row/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Immix Context](https://apis.io/jsonld/immix/immix-context/)
+
+#### Overlays (2)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Immix Enquiry Openapi Overlay](https://apis.io/overlays/immix/immix-enquiry-openapi-overlay/)
+- [Immix Rest Openapi Overlay](https://apis.io/overlays/immix/immix-rest-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [IMMIX API Rules](https://apis.io/rules/immix/immix-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Immix Authentication](https://apis.io/security/immix/immix-authentication/)
+- [Immix Domain Security](https://apis.io/security/immix/immix-domain-security/)
+- [Immix Vulnerability Disclosure](https://apis.io/security/immix/immix-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Immix Scopes](https://apis.io/scopes/immix/immix-scopes/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Immix Rate Limits](https://apis.io/rate-limits/immix/immix-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://immix.xyz/)
+- [Documentation](https://docs.immix.xyz/trading/docs/welcome)
+- [Getting started](https://docs.immix.xyz/trading/docs/quickstart.md)
+- [API reference](https://docs.immix.xyz/trading/api-reference/rest-api/overview)
+- [Changelog](https://docs.immix.xyz/trading/changelog/overview)
+- [GitHub](https://github.com/coinstrats)
+
+## API Evangelist rating
+
+**Kin Score 50.7** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 61.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 0.0 |
+
+**Agent readiness 68.9** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 30.0** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/immix/](https://apis.io/providers/immix/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for IMMIX: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/immix/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
